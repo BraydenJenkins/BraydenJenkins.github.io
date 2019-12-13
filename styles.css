@@ -1,5 +1,5 @@
 * {
-    font-family: Helvetica, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
     min-height: 1600px;
@@ -117,7 +117,25 @@ header {
     width: calc(50% - 40px);
     height: calc(100% - 40px);
     float: left;
-    font-size: 2vw;
+    font-size: 1.85vw;
     margin: 20px;
     text-align: center;
+}
+.contact {
+    display: block;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    margin-top: 0em;
+    font-size: 2vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+#contactlist {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0;
+    float:left;
+    width: 100%;
 }
