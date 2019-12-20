@@ -2,7 +2,6 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    min-height: 1600px;
     margin: 0;
     background: #f8f8f8;
 }
@@ -129,7 +128,14 @@ header {
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
-    color: black;
+    color: white;
+}
+.contact:hover{
+    border-bottom: 4px solid white;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 #contactlist {
     display:block;
