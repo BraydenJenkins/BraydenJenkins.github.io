@@ -37,6 +37,7 @@ body{
     background: url("/images/background.jpg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    background-attachment: fixed;
     display: block;
     padding: 12em 0;
     margin: 0;
@@ -53,14 +54,26 @@ body{
     font-size: 3vw;
     letter-spacing: 1px;
 }
-ul {
+#tabs {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     float: right;
 }
+.headerBG{
+    background-color: white;
+    border-radius: 0px 0px 25px 25px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    -moz-transition: background-color 0.2s ease-in-out;
+    -o-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, border-width 0.2s ease-in-out;
+}
 li{
+    list-style-type: none;
     float: left;
 }
 header {
@@ -76,11 +89,35 @@ header {
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
-    color: white;
-    
+    color: white;   
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.tabBG{
+    display: block;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    margin-top: 0.5em;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 .tab:hover {
     border-bottom: 4px solid white;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.tabBG:hover {
+    color: gray;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
