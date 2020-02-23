@@ -22,7 +22,12 @@ var tasks = [
     "Get a player to admit to having heard of a fake band",
     "Get a player to take a selfie with you",
     "Get a player to take off or put on their shoes",
-    "Have your phone's alarm go off in another player's pocket"
+    "Have your phone's alarm go off in another player's pocket",
+    "Get someone to sing the alphabet",
+    "Get someone to correct your song lyrics",
+    "Get someone to empty their pockets",
+    "Get someone to try to lick their nose",
+    "Get someone to show their ID"
 ]
 var rand1 = Math.floor((Math.random() * tasks.length));
 document.getElementById("task1").innerHTML = tasks[rand1];
