@@ -1,0 +1,14 @@
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.center{
+    text-align: center;
+}
+.task{
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    display: block;
+    margin: 1em;
+}
