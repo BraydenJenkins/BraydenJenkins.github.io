@@ -1,14 +1,14 @@
 {
     "presentations": [
         {
-            "presentationName": "Git Basics",
-            "uploadDate": "7/21/21",
-            "folderLocation": "https://braydenjenkins.github.io/images/Git + Unity Workshop"
-        },
-        {
             "presentationName": "Example Presentation",
             "uploadDate": "7/19/21",
             "folderLocation": "https://braydenjenkins.github.io/images/ASU_Example"
+        },
+        {
+            "presentationName": "Git Basics",
+            "uploadDate": "7/21/21",
+            "folderLocation": "https://braydenjenkins.github.io/images/Git + Unity Workshop"
         },
         {
             "presentationName": "Intro to HTML",
